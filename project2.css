@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#intro {
+
+    height:400px ;
+    width: 100%;
+    background-color: blanchedalmond;
+    
+    }
+    #intro h1{
+
+    font-family: Inter, sans-serif;
+    font-size: 134px;
+    font-weight:100px;
+    line-height: 130px;
+    padding: 45px;
+    margin-bottom: -62px;
+
+}
+
+#place{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    /* margin-top: -80px; */
+    margin-bottom: 5%;
+}
+#place h3 , #place h4{
+    font-size: 33px;
+    font-weight: 400;
+}
+
+#hero-image{
+    margin-top: 800px;
+    height: 35%;
+    width: 100%;
+    background-size: cover;
+    /* background-color: rgb(186, 152, 72); */
+}
+
+#nav{
+    height: 40px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 40px;
+    position: fixed;
+
+}
+
+#nav h3{
+
+    /* height: 40px;
+    width: 95px; */
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 45px;
+    gap: 19px;
+    margin-left: 3px;
+
+}
+#about
+{
+    height: 55%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:19px;
+background-color: rgb(212, 146, 59);
+
+}
+
+#about h2{
+    font-size: 49px;
+    font-weight: 400;
+height: 45px;
+width: 198px;
+}
